@@ -1,4 +1,4 @@
-export const API_URL = "http://localhost:3333";
+export const API_URL = "https://hakujaden-server.herokuapp.com";
 
 export function AUTENTICATE_POST(body) {
     return {
