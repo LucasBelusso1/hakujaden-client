@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Spectral:wght@700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 4rem;
+    margin: 0px;
+    color: black;
+    --type-first: Roboto;
+    --type-second: Roboto;
+    font-family: var(--type-first);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0px;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button,
+input {
+    display: block;
+    font-size: 1rem;
+    font-family: var(--type-first);
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 50rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.mainContainer {
+    margin-top: 4rem;
+}
+
+.title {
+    font-family: var(--type-second);
+    line-height: 1;
+    font-size: 3rem;
+    margin: 1rem 0;
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,22 @@
+.nav {
+    display: grid;
+    grid-template-columns: repeat(
+        3,
+        1fr
+    ); /* Alterar para 4 ao fazer as estatísticas (se sobrar tempo) */
+    gap: 1rem;
+}
+
+.nav a,
+.nav button {
+    background: #eee;
+    border-radius: 0.2rem;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    transition: 1s;
+    cursor: pointer;
+}

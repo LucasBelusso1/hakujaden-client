@@ -1,0 +1,18 @@
+.button {
+    font-size: 1rem;
+    font-family: var(--type-first);
+    cursor: pointer;
+    border: none;
+    border-radius: 0.4rem;
+    background: #800080;
+    color: white;
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    box-sizing: border-box;
+    transition: 0.1s;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: wait;
+}
